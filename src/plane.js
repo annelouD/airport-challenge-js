@@ -1,6 +1,6 @@
 'use strict';
 
-class Plane{
+class Plane {
   
   land(airport){
     airport.allClear(this)

@@ -2,15 +2,15 @@
 
 class Airport{
   constructor(){
-    this.hangar = []
+    this._hangar = []
   };
-  
+
   planes() {
-    return this.hangar;
+    return this._hangar;
   };
 
   allClear(plane){
-    this.hangar.push(plane);
+    this._hangar.push(plane);
   };
 
 };
