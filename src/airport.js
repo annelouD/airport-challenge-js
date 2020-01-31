@@ -13,7 +13,8 @@ class Airport{
     this._hangar.push(plane);
   };
 
-  clearTakeoff(plane){
-    this._hangar.splice(this._hangar.indexOf(plane), 1 );
+  clearTakeOff(plane){
+   this._hangar.splice(this._hangar.indexOf(plane), 1 );
   };
+  
 };
