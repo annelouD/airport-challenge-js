@@ -3,7 +3,10 @@
 class Plane {
   
   land(airport){
-    airport.allClear(this)
+    airport.clearLanding(this)
   };
 
+  takeOff(airport){
+    airport.clearTakeoff(this)
+  };
 };

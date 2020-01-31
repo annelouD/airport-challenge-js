@@ -9,7 +9,7 @@ describe('Airport', function(){
   });
   
   it('can clear planes for landing', function(){
-    airport.allClear(plane);
+    airport.clearLanding(plane);
     expect(airport.planes()).toEqual([plane]);
   });
 });
