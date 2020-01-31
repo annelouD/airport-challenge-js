@@ -1,4 +1,4 @@
-'use sctrict;'
+'use strict';
 
 describe('Plane', function(){
   var plane;
@@ -20,10 +20,4 @@ describe('Plane', function(){
     expect(airport.clearTakeOff).toHaveBeenCalled();
   });
 
-  it('Does not allow take off when weather is stormy', function(){
-    plane.land(airport)
-    spyOn(airport,'isStormy').and.returnValue(true);
-    expect(function(){ plane.takeoff();}).toThrowError('No Take Off Due To Stormy Conditions');
-    expect(airport.planes()).toContain(plane);
-  });
 });
