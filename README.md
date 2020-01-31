@@ -5,7 +5,7 @@ Friday Challenge
 - Use Jasmine spies
 
 User Stories
-1.
+1. COMPLETE
 As an air traffic controller 
 So I can get passengers to a destination 
 I want to instruct a plane to land at an airport
